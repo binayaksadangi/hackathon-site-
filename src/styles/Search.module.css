@@ -1,17 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 .search_area{
     height: 324px;
     background-color:#002A3B;
+    display:flex;
+    flex-direction: column;
 }
+.heading_box{
+    /* border: 1px solid white; */
+  
+    text-align: center;
+    margin-top: 72px ;
+    margin-bottom: 44px;
+}
+.search_box{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 238px;
+    margin-right: 254px;
+    padding: 10px;
+    
+}
+.heading{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.search_bar{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-right: 25px;
+}
+.filter{
+
+}
+
 .field{
     
     width: 100%;
-    background-color: #ffffff;
-    border-radius: 12px;
-    height: 50px;
-}
-.field_container{
-    /* border: 5px solid black; */
-    padding: 10px;
-    position: relative;
-    top: 176px;
-}
+     background-color: #ffffff;
+     border-radius: 12px;
+     height: 50px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

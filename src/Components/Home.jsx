@@ -7,7 +7,7 @@ import group1 from "../assets/group1.svg";
 import group2 from "../assets/group2.svg";
 import group3 from "../assets/group3.svg";
 import Homecard from "./Homecard";
-
+import { Link } from "react-router-dom";
 const ColorButton = styled(Button)(({ theme }) => ({
   color: "#003145",
   borderRadius:"10px",
@@ -33,7 +33,9 @@ const Home = () => {
                 diverse datasets allowing you to foster learning through
                 competitions.
               </p>
-              <ColorButton variant="contained">Create Challenge</ColorButton>
+              <Link to="/createchallenge" >
+                <ColorButton variant="contained">Create Challenge</ColorButton>
+              </Link>
             </div>
           </div>
           {/* img box */}
