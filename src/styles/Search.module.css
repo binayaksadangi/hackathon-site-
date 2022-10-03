@@ -1,0 +1,17 @@
+.search_area{
+    height: 324px;
+    background-color:#002A3B;
+}
+.field{
+    
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 50px;
+}
+.field_container{
+    /* border: 5px solid black; */
+    padding: 10px;
+    position: relative;
+    top: 176px;
+}
