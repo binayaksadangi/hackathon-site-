@@ -61,33 +61,3 @@ const Home = () => {
 
 export default Home;
 
-{
-  /* <Container maxWidth={false}>
-<Grid container className={style.main_grid}>
-  <Grid
-    container
-    item
-    xs={12}
-    md={8}
-    className={style.main_left_grid}
-  >
-    <Grid item xs={12} className={style.left_heading}>
-      <p className={style.left_heading_text}>
-        Accelerate Innovation with Global AI Challenges
-      </p>
-    </Grid>
-    <Grid item xs={12} className={style.left_para}></Grid>
-    <Grid item xs={12} className={style.left_btn}></Grid>
-  </Grid>
-  <Grid
-    container
-    item
-    xs={0}
-    md={4}
-    className={style.main_right_grid}
-  >
-    <img className={style.right_img} src={rocket} alt="rocket" />
-  </Grid>
-</Grid>
-</Container> */
-}
